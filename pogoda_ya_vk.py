@@ -68,7 +68,7 @@ d = ImageDraw.Draw(img,'RGBA')
 d.text((hs-w1/2, vs-h1/2+130), str(b['fact']['temp']), fill="white", anchor="ms", font=ImageFont.truetype("arial.ttf", 120))
 
 #населенный пункт
-d.text((hs-w1/2, vs-h1/2+180), 'ЦЕЛИННОЕ', fill="white", anchor="ms", font=ImageFont.truetype("arial.ttf", 40))
+d.text((hs-w1/2, vs-h1/2+180), 'УФА', fill="white", anchor="ms", font=ImageFont.truetype("arial.ttf", 40))
 
 #осадки
 d.text((hs-w1/2, vs-h1/2+220), osad[b['fact']['condition']], fill="white", anchor="ms", font=ImageFont.truetype("arial.ttf", 22))
